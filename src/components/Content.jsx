@@ -3,6 +3,7 @@ import FunctionHuman from './FunctionHuman';
 import Imgcontetent from './Imgcontent';
 import InfoHuman from './InfoHuman';
 import NameHuman from './NameHuman';
+import PostInput from './PostInput';
 
 
 const Content = () => {
@@ -14,6 +15,7 @@ const Content = () => {
             <NameHuman/>
             <InfoHuman />
             <FunctionHuman />
+            <PostInput />
             
         
         

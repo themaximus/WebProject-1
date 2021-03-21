@@ -1,0 +1,76 @@
+/* Боковое меню */
+
+.header {
+    grid-area: h;
+    
+    background-color: rgb(27, 21, 34);
+    height: 2000px;
+    
+    z-index: 10;
+    
+  }
+  
+  .header-item {
+    color: white;
+    
+    
+    
+  }
+  .mypage-item {
+    margin-left: 20px;
+  }
+  .community-item {
+    margin-left: 20px;
+  }
+  .mymassage-item {
+    margin-left: 20px;
+  }
+  .media-item {
+    margin-left: 20px;
+  }
+  
+  .mypage-item:hover {
+    color: rgb(189, 189, 189);
+    background: rgba(102, 102, 102, 0.2);
+    cursor: pointer;
+  }
+  .community-item:hover {
+    color: rgb(189, 189, 189);
+    background: rgba(102, 102, 102, 0.2);
+    cursor: pointer;
+    
+    
+  }
+  .mymassage-item:hover {
+    color: rgb(189, 189, 189);
+    background: rgba(102, 102, 102, 0.2);
+    cursor: pointer;
+    
+  }
+  .media-item:hover {
+    color: rgb(189, 189, 189);
+    background: rgba(102, 102, 102, 0.2);
+    cursor: pointer;
+    
+  }
+  
+  
+  .input {
+    margin-left: 20px;
+  }
+  
+ /* Логотип сети */
+
+.logo {
+  
+    background-size: contain;
+    
+  
+  }
+  
+  .logo-img{
+    width:auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+  }

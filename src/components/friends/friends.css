@@ -1,0 +1,10 @@
+.FriendsList {
+    width: 400px;
+    height: 400px;
+    float: right;
+    background-color: aqua;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: rgb(24, 20, 26) ;
+    border-radius: 6px 6px;
+  }

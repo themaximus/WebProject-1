@@ -1,3 +1,5 @@
+import './NameHuman.css';
+
 const NameHuman = () => {
     return (
         <div className='NameHuman'>

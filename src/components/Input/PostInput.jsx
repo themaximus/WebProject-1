@@ -1,3 +1,5 @@
+import './PostInput.css';
+
 const PostInput = () => {
     return (
         <input className='PostImput' type='text'></input>

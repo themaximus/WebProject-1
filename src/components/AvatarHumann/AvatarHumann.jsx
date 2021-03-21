@@ -1,4 +1,4 @@
-
+import './AvatarHumann.css';
 
 const AvatarHuman = () => {
     return (

@@ -1,0 +1,36 @@
+.ImputFunction {
+  
+    height: 35px;
+    margin-left: 22px;
+    width: 800px;
+    background-color:  rgb(14, 11, 15) ;
+    float: left;
+    margin-top: 5px;
+    border-radius: 6px 6px;
+    
+  }
+  
+  .Enter {
+    margin-bottom: 10px;
+    float: right;
+    margin-right: 10px;
+    color: rgb(143, 143, 143);
+    margin: 4px;
+    margin-right: 30px ;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+  }
+
+
+  .Enter1 {
+    margin-bottom: 10px;
+    float: right;
+    margin-right: 10px;
+    color: rgb(143, 143, 143);
+    margin: 4px;
+    margin-right: 30px ;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+  }

@@ -1,11 +1,12 @@
-import AvatarHuman from './AvatarHumann';
-import FriendsList from './friends';
-import FunctionHuman from './FunctionHuman';
-import Imgcontetent from './Imgcontent';
-import ImputFunction from './ImputFunction';
-import InfoHuman from './InfoHuman';
-import NameHuman from './NameHuman';
-import PostInput from './PostInput';
+import AvatarHuman from './AvatarHumann/AvatarHumann';
+import FriendsList from './friends/friends';
+import FunctionHuman from './FunctionHuman/FunctionHuman';
+import Imgcontetent from './Imgcontent/Imgcontent';
+import ImputFunction from './Input/ImputFunction';
+import InfoHuman from './Profile/InfoHuman';
+import NameHuman from './Profile/NameHuman';
+import PostInput from './Input/PostInput';
+import './Content.css';
 
 
 const Content = () => {

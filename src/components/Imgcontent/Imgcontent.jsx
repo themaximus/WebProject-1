@@ -1,3 +1,5 @@
+import './Imgcontent.css';
+
 const Imgcontetent = () => {
     return (
         <div className='Imgcontent'>

@@ -1,0 +1,6 @@
+
+.Content {
+    grid-area: c;
+    background-color: rgb(17, 15, 19);
+    height: 2000px;
+  }

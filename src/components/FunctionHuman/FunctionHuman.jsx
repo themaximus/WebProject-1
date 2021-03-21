@@ -1,3 +1,6 @@
+import './FunctionHuman.css';
+
+
 const FunctionHuman = () => {
     return (
         <div className='FunctionHuman'>

@@ -1,0 +1,40 @@
+.FunctionHuman {
+    color: white;
+    
+    margin-top: 46px;
+    height: 80px;
+    border: 2px solid rgb(14, 11, 15);
+    background-color: rgb(14, 11, 15);
+    
+    
+  
+  }
+  
+  .text {
+    margin:0 ;
+    margin-left: 50px;
+    margin-top: 25px;
+    color: rgb(143, 143, 143);
+    grid-area: j;
+  }
+  
+  .name {
+    float: left;
+    cursor: pointer;
+  }
+  
+  .name1 {
+    float: left;
+   margin-left: 50px;
+    margin-top: 6px;
+    color: rgb(143, 143, 143);
+    cursor: pointer;
+  }
+  
+  .name2 {
+    float: left;
+   margin-left: 50px;
+    margin-top: 6px;
+    color: rgb(143, 143, 143);
+    cursor: pointer;
+  }

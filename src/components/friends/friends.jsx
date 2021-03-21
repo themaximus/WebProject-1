@@ -1,3 +1,5 @@
+import './friends.css';
+
 const FriendsList = () => {
     return (
         <div className='FriendsList'>

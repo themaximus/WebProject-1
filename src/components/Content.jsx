@@ -26,7 +26,8 @@ const Content = () => {
             <ImputFunction />
             <Post />
             <Post />
-            
+            <Post />
+            <Post />
            
             
         

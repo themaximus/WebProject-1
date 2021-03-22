@@ -3,7 +3,7 @@
 .header {
     grid-area: h;
     
-    background-color: rgb(27, 21, 34);
+    background-color: rgb(24, 20, 26);
     height: 2000px;
     
     z-index: 10;

@@ -7,6 +7,8 @@ import InfoHuman from './Profile/InfoHuman';
 import NameHuman from './Profile/NameHuman';
 import PostInput from './Input/PostInput';
 import './Content.css';
+import Post from './PostHuman/Post';
+
 
 
 const Content = () => {
@@ -22,6 +24,10 @@ const Content = () => {
             
             <FriendsList />
             <ImputFunction />
+            <Post />
+            <Post />
+            
+           
             
         
         

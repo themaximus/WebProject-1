@@ -1,0 +1,25 @@
+.PostFunction {
+    width: 800px;
+    height: 30px;
+    float: left;
+    
+    margin-left: 20px;
+    border-radius: 0px 0px 6px 6px;
+    background-color:  rgb(14, 11, 15) ;
+}
+
+.like img {
+    width: 25px;
+    height: 25px;
+    margin-top: 4px;
+    float: right;
+    margin-right: 6px;
+}
+
+.repost img {
+    width: 25px;
+    height: 25px;
+    margin-top: 4px;
+    float: right;
+    margin-right: 6px;
+}

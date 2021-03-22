@@ -1,0 +1,13 @@
+.Item {
+    width: 100px;
+    height: 50px;
+    
+    
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: auto;
+    border-radius: 6px 6px 0px 0px;
+    width: 800px;
+    background-color: rgb(24, 20, 26) ;
+}

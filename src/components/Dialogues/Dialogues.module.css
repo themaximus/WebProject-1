@@ -1,0 +1,9 @@
+.DialoguesHeader {
+    color: white;
+    background-color: violet;
+    width: 1200px;
+    
+    grid-area: c;
+    
+    height: 100px;
+}

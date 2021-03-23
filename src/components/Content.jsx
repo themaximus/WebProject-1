@@ -11,6 +11,8 @@ import Post from './PostHuman/Post';
 
 
 
+
+
 const Content = () => {
     return (
         
@@ -24,10 +26,11 @@ const Content = () => {
             
             <FriendsList />
             <ImputFunction />
+            <Post massage='Ура, скоро будет первый функционал!' like='21' />
+            <Post massage='Борьба сквозь сон.' like='14'/>
             <Post />
             <Post />
-            <Post />
-            <Post />
+            
            
             
         

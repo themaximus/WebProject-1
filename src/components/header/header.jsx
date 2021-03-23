@@ -8,9 +8,9 @@ const Header = () => {
 
       <div className='header-item'>
         <input className= "input" ></input>
-        <div className='mypage-item'><h3>Моя страница</h3></div>
+        <div className='mypage-item'><a href='/content'>Моя страница</a></div>
         <div className='community-item'><h3>Cообщества</h3></div>
-        <div className='mymassage-item'><h3>Мои сообщения</h3></div>
+        <div className='mymassage-item'><a href='/Dialogues'>Мои сообщения</a></div>
         <div className='media-item'><h3>Медиатека</h3></div>
       </div>
 

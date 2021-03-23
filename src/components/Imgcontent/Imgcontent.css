@@ -1,12 +1,12 @@
 .Imgcontent {
     width: 1291px;
-    float:left;
+    float:top;
   }
   
   .Imgcontent {
     background-color: aqua;
     width: 1305px;
     height: 300px;
-    background-size:auto;
+    
     background-image: url(https://preview.redd.it/yvyj7hwc4pv31.jpg?width=960&crop=smart&auto=webp&s=f8d7a7ad6a877d93d057c573b5af2507eb7b98ef);
    }

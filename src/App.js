@@ -16,11 +16,9 @@ const App = () => {
     <div className='App'>
       
       <Header/>
-      <div className='1'>
+      <div>
         <Route path='/Content' component={Content} />
         <Route path='/Dialogues' component={Dialogues} />
-        
-     
       </div>
       
       

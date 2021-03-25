@@ -1,1 +1,9 @@
 
+.Content {
+    grid-area: c;
+    background-color: rgb(31, 31, 37);
+    height:auto;
+    width: 1535px;
+    float: left;
+    overflow: hidden;
+  }

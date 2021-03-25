@@ -3,7 +3,7 @@ import { Route } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Content from './components/Content';
-import Header from './components/header/header';
+
 import Dialogues from './components/Dialogues/Dialogues';
 
 
@@ -15,7 +15,7 @@ const App = () => {
     <BrowserRouter> 
     <div className='App'>
       
-      <Header/>
+      
       <div>
         <Route path='/Content' component={Content} />
         <Route path='/Dialogues' component={Dialogues} />

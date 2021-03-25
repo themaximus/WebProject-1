@@ -1,9 +1,9 @@
 .DialoguesHeader {
     color: white;
-    background-color: violet;
-    width: 1200px;
+    background-color: rgb(40, 24, 134);
     
-    grid-area: c;
-    
-    height: auto;
+    height: 750px;
+    width:200px;
+    float:top;
+    overflow: hidden;
 }

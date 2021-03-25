@@ -1,19 +1,21 @@
 import { NavLink } from 'react-router-dom';
-import './header.css'
+import s from './header.module.css';
 
 const Header = () => {
     return (
-        <header className='header'>
-    <div className='logo'>
-      <img className='logo-img' src='https://i.postimg.cc/fyHSKBSn/logo.png' />
+        <header className={s.header}>
+    <div className={s.logo}>
+    <img className={s.logo_img} src='https://i.postimg.cc/fyHSKBSn/logo.png' />
 
-      <div className='header-item'>
-        <input className= "input" ></input>
-        <div className='mypage-item'><NavLink to='/content'>Моя страница</NavLink></div>
-        <div className='community-item'><h3>Cообщества</h3></div>
-        <div className='mymassage-item'><NavLink to='/Dialogues'>Мои сообщения</NavLink></div>
-        <div className='media-item'><h3>Медиатека</h3></div>
+      <div className={s.header_item}>
+        <input className= {s.input} ></input>
+        <div className={s.mypage_item}><NavLink to='/content' activeClassName={s.activeLink}>Моя страница</NavLink></div>
+        <div className={s.mypage_item}><a>Cообщества</a></div>
+        <div className={s.mypage_item}><NavLink to='/Dialogues' activeClassName={s.activeLink}>Мои сообщения</NavLink></div>
+        <div className={s.mypage_item}><a>Медиатека</a></div>
+        <div className={s.mypage_item}><a>Настройки</a></div>
       </div>
+      
 
     </div>
     </header>

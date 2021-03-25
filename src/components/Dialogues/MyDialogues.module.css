@@ -1,0 +1,10 @@
+.MyDialogues {
+    width: 1200px;
+    height: 652px;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 50px;
+    
+    background-color: rgb(42, 42, 51);
+    
+}

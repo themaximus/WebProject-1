@@ -2,7 +2,7 @@
 
 
 import { NavLink } from 'react-router-dom';
-import I from './ListItemFriends.module.css';
+
 
 
 const ListItemFriends = (props) => {

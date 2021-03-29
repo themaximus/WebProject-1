@@ -1,7 +1,3 @@
-
-
-
-
 import uy from './MessageFriend.module.css';
 
 

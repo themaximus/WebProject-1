@@ -6,12 +6,15 @@ import GeneralContent from './GeneralContent';
 
 
 
-const Content = () => {
+const Content = (props) => {
+
+    
+
     return (
         
         <div className='Content'>
             <Header />
-            <GeneralContent />
+            <GeneralContent postData = { props.postData } />
         </div>
 
         

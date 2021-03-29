@@ -11,10 +11,11 @@ const MyDialogues = (props) => {
     
     
     
+    
 
     return (
         <div className={s.MyDialogues}>
-            <ListDialogues />
+            <ListDialogues dialoguesData={ props.dialoguesData } />
             <ContentDialogues messageData={ props.messageData } />
             <InputDialogues />
         </div>

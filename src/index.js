@@ -12,6 +12,14 @@ let messageData = [
   {id:5, message: 'Мдаа, не удевлюсь если этот взрыв будет самым маленьким взрывом на планет.'}
 ]
 
+let dialoguesData = [
+  {id:1, name: 'Максим'},
+  {id:2, name: 'Женя'},
+  {id:3, name: 'Кирилл'},
+  {id:4, name: 'Валя'},
+  {id:5, name: 'Ксюша'}
+]
+
 let postData = [
   {id: 1, message: 'Слушайте русскую женщину!', likesCount: 32},
   {id: 2, message: 'Какой сегодня прекрасный день!', likesCount: 54},
@@ -20,7 +28,7 @@ let postData = [
 
 ReactDOM.render(
   <React.StrictMode>
-    <App messageData={ messageData }  postData={postData}/>
+    <App messageData={ messageData }  postData={ postData } dialoguesData={ dialoguesData }/>
   </React.StrictMode>,
   document.getElementById('root')
 );

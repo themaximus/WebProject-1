@@ -1,0 +1,14 @@
+.InputString {
+    color: crimson;
+    width: 700px;
+    height: 50px;
+    border: 0px;
+    size: 100;
+    background-color: rgb(25, 25, 29);
+    color: white;
+    margin-left: 20px;
+    margin-top: 25px;
+    border-radius: 6px 6px;
+    float: left;
+    
+}

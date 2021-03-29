@@ -8,6 +8,14 @@ import ImputFunction from "./Input/ImputFunction"
 import PostInput from "./Input/PostInput"
 import Post from "./PostHuman/Post"
 
+let postData = [
+    {id: 1, message: 'Слушайте русскую женщину!', likesCount: 32},
+    {id: 2, message: 'Какой сегодня прекрасный день!', likesCount: 54},
+    {id: 3, message: 'Происходят удивительные вещи!', likesCount: 22},
+]
+
+
+let PostElements = postData.map ( p => <Post message={p.message} id={p.id} likesCount={p.likesCount}/> ) ;
 
 
 const GeneralContent = () => {
@@ -22,9 +30,7 @@ const GeneralContent = () => {
             
             <FriendsList />
             <ImputFunction />
-            <Post massage='Ура, скоро будет первый функционал!' like='21' />
-            <Post massage='Борьба сквозь сон.' like='14'/>
-            <Post />
+            { PostElements }
         </div>
     )
 }

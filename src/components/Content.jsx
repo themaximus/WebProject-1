@@ -14,7 +14,7 @@ const Content = (props) => {
         
         <div className='Content'>
             <Header />
-            <GeneralContent postData = { props.postData } />
+            <GeneralContent postData = { props.State.postData } />
         </div>
 
         

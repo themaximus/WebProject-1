@@ -13,7 +13,7 @@ const Dialogues = (props) => {
         <div>
             <div className={styles.DialoguesHeader}>  
             <Header />
-            <MyDialogues messageData={ props.messageData } dialoguesData={props.dialoguesData} />
+            <MyDialogues messageData={ props.State.messageData } dialoguesData={props.State.dialoguesData} />
             </div>
             
         </div>

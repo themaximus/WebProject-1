@@ -22,8 +22,18 @@ const App = (props) => {
       
       
       <div>
-        <Route path='/Content' render={ () => <Content postData={ props.postData } />} />
-        <Route path='/Dialogues' render={ () => <Dialogues messageData={ props.messageData } dialoguesData={props.dialoguesData} />} />
+        <Route path='/Content' render={ () => <Content State={ 
+          
+          props.appState.Profile } 
+          
+          />} />
+
+        <Route path='/Dialogues' render={ () => <Dialogues State={ 
+          
+          props.appState.Dialogues }
+        
+        />} />
+
       </div>
       
       

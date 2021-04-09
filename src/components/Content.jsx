@@ -6,6 +6,7 @@ import GeneralContent from './GeneralContent';
 
 
 
+
 const Content = (props) => {
 
     
@@ -14,7 +15,7 @@ const Content = (props) => {
         
         <div className='Content'>
             <Header />
-            <GeneralContent postData = { props.State.postData } />
+            <GeneralContent postData = { props.ProfileState.postData }  addPost={props.addPost} addMessage={props.addMessage} newPostText={props.ProfileState.newPostText}/>
         </div>
 
         

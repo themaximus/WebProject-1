@@ -1,9 +1,11 @@
 
 .Content {
     grid-area: c;
-    background-color: rgb(31, 31, 37);
+    background-color: rgb(41, 41, 87);
     height:auto;
     width: 1535px;
     float: left;
     overflow: hidden;
   }
+
+  /*background-color: rgb(31, 31, 37); */

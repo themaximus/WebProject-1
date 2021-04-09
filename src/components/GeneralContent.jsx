@@ -7,6 +7,9 @@ import HumanPackInfo from "./InfoHumanPack/HumanPackInfo"
 import ImputFunction from "./Input/ImputFunction"
 import PostInput from "./Input/PostInput"
 import Post from "./PostHuman/Post"
+import React from 'react';
+
+
 
 
 
@@ -20,6 +23,8 @@ const GeneralContent = (props) => {
 
     let PostElements = props.postData.map ( p => <Post message={p.message} id={p.id} likesCount={p.likesCount}/> ) ;
 
+    
+
     return (
         <div className={c.GeneralContent}>
             <Imgcontetent />
@@ -27,7 +32,7 @@ const GeneralContent = (props) => {
         
             <HumanPackInfo />
             <FunctionHuman />
-            <PostInput />
+            <PostInput newPostText={props.newPostText}  />
             
             <FriendsList />
             <ImputFunction />

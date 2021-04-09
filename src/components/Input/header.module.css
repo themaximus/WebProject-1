@@ -1,0 +1,97 @@
+/* Боковое меню */
+
+.header {
+    grid-area: h;
+    color: white;
+    
+    background-color: rgb(25, 25, 29);
+    height: 2000px;
+    text-decoration: none;
+    z-index: 10;
+    float: left;
+    width: 200px;
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  .header_item {
+    color: white;
+    text-decoration: none;
+    
+
+  
+  }
+  .mypage_item {
+    
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px;
+    
+  }
+  .community_item {
+    margin-left: 20px;
+  }
+  .mymassage_item {
+    margin-left: 20px;
+  }
+  .media_item {
+    margin-left: 20px;
+  }
+  
+  .mypage_item:hover {
+    color: rgb(189, 189, 189);
+    background: rgba(102, 102, 102, 0.2);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .community_item:hover {
+    color: rgb(189, 189, 189);
+    background: rgba(102, 102, 102, 0.2);
+    cursor: pointer;
+    
+    
+  }
+  .mymassage_item:hover {
+    color: rgb(189, 189, 189);
+    background: rgba(102, 102, 102, 0.2);
+    cursor: pointer;
+    
+  }
+  .media_item:hover {
+    color: rgb(189, 189, 189);
+    background: rgba(102, 102, 102, 0.2);
+    cursor: pointer;
+    
+  }
+  
+  
+  .input {
+    margin-left: 15px;
+  }
+  
+ /* Логотип сети */
+
+.logo {
+  
+    background-size: contain;
+    
+  
+  }
+  
+  .logo_img{
+    width:auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+  }
+
+  .mypage_item a.activeLink {
+    color: rgb(139, 139, 139);
+    text-decoration: none;
+  }

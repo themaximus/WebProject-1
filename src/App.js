@@ -11,6 +11,7 @@ import Dialogues from './components/Dialogues/Dialogues';
 
 
 
+
 const App = (props) => {
 
   
@@ -22,9 +23,8 @@ const App = (props) => {
       
       
       <div>
-        <Route path='/Content' render={ () => <Content State={ 
-          
-          props.appState.Profile } 
+        <Route path='/Content' render={ () => <Content ProfileState={ props.appState.Profile }  
+      
           
           />} />
 

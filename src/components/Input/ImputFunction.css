@@ -34,3 +34,11 @@
     width: 100px;
     text-align: center;
   }
+
+
+  .Enter:hover {
+    color: rgb(189, 189, 189);
+   
+    cursor: pointer;
+    text-decoration: none;
+  }

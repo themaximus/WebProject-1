@@ -1,15 +1,17 @@
 import newMessageElement from "./DialoguesInputScript2";
-import {addMessage} from '../../Redux/STATE.js';
+import Store from '../../Redux/STATE.js';
 
-let onAddPost = () => {
+let onAddMessage = () => {
     let text = newMessageElement.current.value;
-    addMessage (text);
+    Store.addMessage (text);
 
 } 
 
 export let onMessageChange = () => {
     let text = newMessageElement.current.value;
-    addMessage (text);
+    Store.addMessage (text);
 }
 
-export default onAddPost;
+export default onAddMessage;
+
+

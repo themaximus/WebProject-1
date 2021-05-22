@@ -13,7 +13,7 @@ const Post = (props) => {
 
     return (
         <div className='Item'>
-            <img src="https://i.ibb.co/0KdCgV2/145.png"/>
+            <img src="https://i.ibb.co/wy52WFv/yanick.png"/>
             { props.message }
             { props.likesCount }
             < PostFunction />

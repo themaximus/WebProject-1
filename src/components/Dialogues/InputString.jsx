@@ -1,4 +1,3 @@
-import { onMessageChange } from './DialoguesInputScript';
 import newMessageElement from './DialoguesInputScript2';
 import z from './InputString.module.css';
 
@@ -6,11 +5,12 @@ import z from './InputString.module.css';
 const InputString = () => {
     return (
         <div className={z.InputStringBlock }>
-              <input onChange={onMessageChange} ref={newMessageElement} className={z.InputString}>
-                  
+              <input  ref={newMessageElement} className={z.InputString} placeholder='Ввод сообщения' type='text' >
+              
               </input>
         </div>
     )
 }
 
 export default InputString;
+

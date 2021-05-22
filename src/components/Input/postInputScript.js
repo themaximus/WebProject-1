@@ -1,8 +1,8 @@
 import newPostElement from "./postInputScript2";
-import {addPost} from '../../Redux/STATE.js';
-import {updatePostText} from '../../Redux/STATE.js';
+import Store from '../../Redux/STATE.js';
+
 let onAddPost = () => {
-    addPost ();
+    Store.addPost ();
 } 
 
 
@@ -10,9 +10,15 @@ let onAddPost = () => {
 
 export let onPostChange = () => {
     let text = newPostElement.current.value;
-    updatePostText(text);
+    Store.updatePostText(text);
 
 }
 
 
+
+
+
 export default onAddPost;
+
+
+

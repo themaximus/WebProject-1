@@ -11,3 +11,9 @@
     width: 800px;
     background-color: rgb(25, 25, 29);
 }
+
+.Item img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
